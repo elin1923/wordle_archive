@@ -57,7 +57,7 @@ const getDay = (og_day) => {
 
 const getOGDay = () => {
   const today = new Date()
-  const date1 = new Date('6/21/21')
+  const date1 = new Date('2/21/22')
   const diffTime = Math.abs(today - date1)
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
   return diffDays
